@@ -1,0 +1,61 @@
+/* Landing Page styles */
+
+.landing-page{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    background-image:url('/public/login-background.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center
+  }
+  
+  .card{
+    width:600px;
+    text-align: center;
+  }
+  
+  .disney_logo_landing{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .disney_logo_landing img{
+    width: 600px;
+  }
+  
+  .explore button{
+    font-size: 30px;
+    background-color: rgb(64, 121, 243);
+    width: 550px;
+    height: 50px;
+    border-radius: 7px;
+  }
+  
+  .landing-page .text{
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+  }
+  
+  .Images{
+    padding-top: 15px;
+  }
+  
+  .Images div img{
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  
+  .lable-input{
+    width:90%;
+      display:flex;
+      flex-direction:column;
+      align-items:flex-start
+  }

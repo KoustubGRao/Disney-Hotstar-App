@@ -10,7 +10,7 @@ const FooterFile = () => {
                 <div className="grid-item">
                     <div className="text-white text-sm pb-2 text-base">View Website in</div>
                     <div><label for="lang1">
-                        <input type="checkbox" checked/>
+                        <input type="checkbox" defaultChecked/>
                         &nbsp;English
                     </label></div>
                 </div>

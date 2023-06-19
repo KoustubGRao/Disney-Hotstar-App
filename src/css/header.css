@@ -1,0 +1,30 @@
+/* header styles */
+.Dplus_header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Dplus_header button{
+    font-size: large;
+    font-weight: 600;
+    background-color: black;
+    margin-right: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 8px;
+    color:#808080;
+    border: solid;
+    text-align: center;
+  }
+  
+  .logo{
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  

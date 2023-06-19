@@ -1,4 +1,4 @@
-const movies = [
+export const movies = [
     {   'id':1,
         "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/49B92C046117E89BC9243A68EE277A3B30D551D4599F23C10BF0B8C1E90AEFB6/scale?width=1440&aspectRatio=1.78&format=jpeg",
         "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/87F1DCF36049558159913ADFD18A800DE1121771540033EC3A7651B8FE154CEB/scale?width=400&aspectRatio=1.78&format=jpeg",
@@ -7,6 +7,7 @@ const movies = [
         "title": "Inside Out",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5C647DF3FFBFA343CFEA84AC715148F25F9E86F398B408010CC403E7654FB908/scale?width=1440&aspectRatio=1.78",
         "type": "recommend",
+        "favourite":false,
     },
     {
         'id':2,
@@ -16,7 +17,9 @@ const movies = [
         "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
         "title": "A tail of two kitties",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78",
-        "type": "new"
+        "type": "new",
+        "favourite":false,
+
     },
     {   
         'id':3,
@@ -26,7 +29,9 @@ const movies = [
         "subTitle": "2018 • 7m • Family, Fantasy, Kids, Animation",
         "title": "Bao",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78",
-        "type": "recommend"
+        "type": "recommend",
+        "favourite":false,
+
     },
     {   
         'id':4,
@@ -36,7 +41,9 @@ const movies = [
         "subTitle": "2010 • 1h 40m • Family, Fantasy, Animation, Action-Adventure, Musical",
         "title": "Tangled",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F70235E3463A6F246EB462ED5379F9D41D6318E80098BD40900E7AFC1C7D932D/scale?width=1440&aspectRatio=1.78",
-        "type": "trending"
+        "type": "trending",
+        "favourite":false,
+
     },
     {   
         'id':5,
@@ -46,7 +53,9 @@ const movies = [
         "subTitle": "2020 • 1h 49m • Family, Comedy, Fantasy, Animation, Music",
         "title": "Soul",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E837DDE901CD036DD87A00F2D63E2F2458FAA798E62BE91F973AECCEA313A67E/scale?width=1440&aspectRatio=1.78",
-        "type": "original"
+        "type": "original",
+        "favourite":false,
+
     },
     {
         'id':6,
@@ -56,7 +65,9 @@ const movies = [
         "subTitle": "2016 • 1h 47m • Family, Fantasy, Animation, Action-Adventure, Musical",
         "title": "Moana",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9562874BAB22B22A698368819B9EBF30FEB0291543552EB2416A5A61A73F63F4/scale?width=1440&aspectRatio=1.78",
-        "type": "trending"
+        "type": "trending",
+        "favourite":false,
+
     },
     {
         'id':7,
@@ -66,7 +77,9 @@ const movies = [
         "subTitle": "2018 • 1h 58m • Science Fiction, Family, Animation, Action-Adventure",
         "title": "Incredibles 2",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2041CE26663867FC4EF20377B8625BD629E619452E23BCDB1AB259DD475C2EA1/scale?width=1440&aspectRatio=1.78",
-        "type": "recommend"
+        "type": "recommend",
+        "favourite":false,
+
     },
     {
         'id':8,
@@ -76,7 +89,9 @@ const movies = [
         "subTitle": "2021 • 1 Season • Docuseries, Anthology",
         "title": "Assembled",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/37D80C5D1AB0BA65C63588311EC60A07342F60F91D402C28B8E1137AF6A30549/scale?width=1440&aspectRatio=1.78",
-        "type": "original"
+        "type": "original",
+        "favourite":false,
+
     },
     {
         'id':9,
@@ -86,7 +101,9 @@ const movies = [
         "subTitle": "2020 • 6m • Family, Animation",
         "title": "Burrow",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DD8BBA864E290FBC03A244A488FFC8DC8365FBF2F95A122B1D57BF3772D717FD/scale?width=1440&aspectRatio=1.78",
-        "type": "original"
+        "type": "original",
+        "favourite":false,
+
     },
     {
         'id':10,
@@ -96,7 +113,9 @@ const movies = [
         "subTitle": "1989 - 2019 • 31 Seasons • Comedy, Animation",
         "title": "The Simpsons",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/47A6FB38D95B3A5EF5583C9EED0B698ED2992CBA4AC7222DD3269DC92DFA03A6/scale?width=1440&aspectRatio=1.78",
-        "type": "trending"
+        "type": "trending",
+        "favourite":false,
+
     },
     {
         'id':11,
@@ -106,7 +125,9 @@ const movies = [
         "subTitle": "2021 • 1 Season • Science Fiction, Fantasy, Action-Adventure",
         "title": "Legends",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DDFF0FDF457E092EE53149CE7DB5BD14CB97E27B92D2D087E7C687B4E3073DE2/scale?width=1440&aspectRatio=1.78",
-        "type": "original"
+        "type": "original",
+        "favourite":false,
+
     },
     {
         'id':12,
@@ -116,7 +137,9 @@ const movies = [
         "subTitle": "2021 • 1h 52m • Family, Fantasy, Animation, Action-Adventure",
         "title": "Raya",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E7D8EFFDD30B2A0E205DDD9929207439B21E7595709769F2A23C50457664FFB2/scale?width=1440&aspectRatio=1.78",
-        "type": "new"
+        "type": "new",
+        "favourite":false,
+
     },
     {
         'id':13,
@@ -126,7 +149,9 @@ const movies = [
         "subTitle": "2018 • 7m • Family, Comedy, Animation",
         "title": "Auntie EDNA",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A31BE6502DC7A3A01DAF58DF7E91AB6FF598A078C8FA88A1DB2D7B7E25439464/scale?width=1440&aspectRatio=1.78",
-        "type": "recommend"
+        "type": "recommend",
+        "favourite":false,
+
     },
     {
         'id':14,
@@ -136,7 +161,9 @@ const movies = [
         "subTitle": "2006 - 2013 • 5 Seasons • Kids, Animation",
         "title": "Mickey mouse",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4FF3FCD567F0263430DFC33B9489CE2799AE33B50AD553DE65F03B3EA2E19828/scale?width=1440&aspectRatio=1.78",
-        "type": "trending"
+        "type": "trending",
+        "favourite":false,
+
     },
     {
         'id':15,
@@ -146,7 +173,9 @@ const movies = [
         "subTitle": "2021 • 1 Season • Science Fiction, Action-Adventure, Buddy",
         "title": "The falcon and the winter soldier",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4A67A42FB16607DAE7E22266D3F00181965178ED1884047C2D982EE7D89D3554/scale?width=1440&aspectRatio=1.78",
-        "type": "new"
+        "type": "new",
+        "favourite":false,
+
     },
     {
         'id':16,
@@ -156,8 +185,10 @@ const movies = [
         "subTitle": "2019 • 53m • Documentary, Biographical, Music",
         "title": "My music story",
         "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/97BB36F8B9FC053F561894DD7B1C42C4FD20E63560F481CBCB3B9D3600CFCA3B/scale?width=1440&aspectRatio=1.78",
-        "type": "new"
+        "type": "new",
+        "favourite":false,
+
     }
 ]
 
-export default movies;
+// export const DataChanger = React.createContext({movies,isFav:()=>{}});

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import movies from './movies';
+import {movies} from './movies';
 import {Link} from 'react-router-dom'
 import HeaderFile from './header';
 import FooterFile from './footer';
@@ -7,8 +7,7 @@ import { AiOutlineSearch } from 'react-icons/ai';
 
 class Search extends Component {
     state = {search: ''}
-
-    
+  
     changeSearch=(event)=>{
         const search = event.target.value;
         this.setState({search})
@@ -18,7 +17,6 @@ class Search extends Component {
         const {search} = this.state;
         console.log(search);
         const moviesList=movies.filter(m=>m.title.toLowerCase().includes(search.toLowerCase()));
-
 
         return (
             <>
@@ -42,4 +40,4 @@ class Search extends Component {
     }
 }
 
-export default Search
+export default Search;
