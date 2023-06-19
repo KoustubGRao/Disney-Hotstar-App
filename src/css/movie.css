@@ -1,0 +1,87 @@
+/* Movie Page Styles */
+
+.content{
+    color: white;
+    height: 100%;
+    background-size: cover;
+  }
+  
+  .line-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .line-1 button{
+    transition: transform 0.2s ease;
+  }
+  .line-1 button:hover{
+    transform : scale(1.08);
+  }
+  
+  .content button{
+    background-color: rgba(0,0,0,0.3);
+    border: solid white 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: 600px;
+  }
+  
+  .content button.people{
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 50px;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .content img{
+    height: 60vh;
+    width:50%;
+    padding-bottom: 0px;
+  }
+  
+  .like-dislike{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+  }
+  
+  .like-dislike button{
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .subTitle{
+    font-size: small;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+  }
+  
+  .description{
+    width: 55%;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .playButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .favorite{
+    fill: red;
+  }
+
+  .red{
+    fill: rgb(255, 221, 0);
+  }

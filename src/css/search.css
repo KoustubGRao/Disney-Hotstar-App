@@ -1,0 +1,49 @@
+/* search page styles */
+
+  .list-search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .Search-page{
+    background-color: rgb(17, 2, 110);
+    background-size: cover;
+  }
+  
+  .search{
+    margin-top: 20px;
+    outline: none;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  .search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-icon{
+    margin-right:20px;
+    margin-top: 20px;
+    scale: 250%;
+    align-self: center;
+    color: white;
+  }
+  
+  .search-cards{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    place-items: center;
+  }
+  
+  .heart-icon.favorite {
+    fill: red;
+  }
+  

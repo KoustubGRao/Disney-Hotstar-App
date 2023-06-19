@@ -1,0 +1,33 @@
+/* footer styles */
+
+
+.Footer{
+    background-color: black;
+    font-size: 15px;
+    padding-left: 15px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid #808080;
+  }
+  
+  .footer-top{
+    color:#808080;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  .footer-top .img1{
+    width: 30px;
+  }
+  
+  .footer-top .img2{
+    width:32px;
+  }
+  
+  .footer-bottom{
+    color: #808080;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  
